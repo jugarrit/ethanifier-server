@@ -1,0 +1,6 @@
+{
+  "name": "Ethanifier Server",
+  "description": "Node.js server for Ethanifier",
+  "repository": "https://github.com/juliangarritano/ethanifier-server",
+  "keywords": ["node", "express", "ethanifier"]
+}
