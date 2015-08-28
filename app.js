@@ -5,7 +5,7 @@
  */
 var express = require('express');
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 3000;
 var request = require('request');
 var SLACK_API_ENDPOINT = 'https://slack.com/api/';
 var GET_PRESENCE = 'users.getPresence';
