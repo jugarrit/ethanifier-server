@@ -11,9 +11,6 @@ var SLACK_API_ENDPOINT = 'https://slack.com/api/';
 var GET_PRESENCE = 'users.getPresence';
 var USER_INFO = 'users.info';
 
-// For gzip compression
-app.use(express.compress());
-
 /*
  * Routes
  */
